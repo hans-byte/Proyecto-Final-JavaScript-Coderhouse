@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Quicksand";
+}
+
+/* Mobile responsive*/
+/* Style for Index page */
+
+.nav{
+    background-color: #1f5d5e;
+}
+
+.nav-link{
+    color: #9ce451;;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color:#9ce451;
+}
+
+.nav-link:hover{
+    color: white;
+}
+.container_index{
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 15% 35% 23% 26% 1%;
+    grid-template-areas: 
+    "intro"
+    "services"
+    "us"
+    "testimonies"
+    "footer"
+    ;
+}
+
+.intro{
+    grid-area: intro;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.services{
+    grid-area: services;
+    background-color: #25b386;
+    justify-items: center;
+    width: 100%;
+}
+
+.us{
+    grid-area: us;
+    background-color: #4cb3a0;
+    text-align: center;
+}
+
+.testimonies{
+    grid-area: testimonies;
+    background-color: #9ce451;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #1f5d5e;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.intro__img{
+    background-image:url("../img/nature.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all 1s;
+    opacity: 0.8;
+}
+
+.intro__img:hover{
+    transform: scale(1.05);
+}
+
+.main__cover__text{
+    padding: 60px 10px 30px 10px;
+    color: white;
+}
+
+.secundary__cover__text{
+    padding: 0px 30px 0px 30px;
+    color: white;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.651);
+    margin: 20px 15px 20px 15px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 1s;
+    align-items: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.section__img__card{
+    height: 100px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.card__text{
+    color:#1f5d5e;
+    padding: 0px 10px 0px 10px;
+}
+
+.us__main__text{
+    color: black;
+    padding: 0px 10px 20px 10px;
+}
+
+.us__video{
+    width: 100%;
+    height: 315px;
+}
+
+.footer__logo{
+    height: 30px;
+    width: 50px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+/* Mobile responsive*/
+/* Style for aouut_us page */
+
+
+
+
+.container_about_us{
+    display: grid;
+    grid-template-rows: 15% 16% 11% 35% 17% 6% 2%;
+    grid-template-areas: 
+    "intro_about_us"
+    "mission"
+    "details_about_us"
+    "team"
+    "rights"
+    "ethics"
+    "footer"
+    ;
+}
+
+.intro_about_us{
+    grid-area: intro_about_us;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+.mission{
+    grid-area: mission;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    background-color: #25b386;
+}
+
+.details_about_us{
+    grid-area: details_about_us;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.team{
+    grid-area: team;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.rights{
+    grid-area: rights;
+    background-color: #7dd1c1;
+    text-align: center;
+}
+
+.ethics{
+    grid-area: ethics;
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.intro__about__us__img{
+    background-image: url("../img/about_us_landpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+    opacity: 1.5;
+}
+
+.intro__about__us__img:hover{
+    transform: scale(1.05);
+}
+
+.card__intro__about__us{
+    background-color: rgba(255, 255, 255, 0.651);
+    margin: 5px 40px 20px 40px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mission__format{
+    width: 80%;
+    margin: 5px 15px 10px 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 10px;
+    transition: all 1s;
+
+}
+
+
+.mission__format:hover{
+    transform: scale(1.1);
+}
+
+.NoBullets{
+    list-style-type: none;
+}
+
+.details__about__us__img{
+    background-image: url("../img/pexels-pixabay-40568.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.main__cover__text__black{
+    padding: 20px 10px 20px 10px;
+    color: black;
+}
+
+.organization{
+    text-align: center;
+    justify-content:center;
+    padding: 0px 30px 10px 30px;
+}
+
+.profiles{
+    height: 350px;
+    width: 50%;
+    border: solid 1px black;
+}
+
+.moral__title{
+    padding: 20px 20px 10px 10px;
+    color: black;
+}
+
+.text_aside{
+    padding: 10px 0px 10px 20px;
+    text-align: left;
+}
+
+
+
+
+
+/*Tablet responsive*/
+
+
+@media screen and (min-width: 576px){
+
+    .container_index{
+        display: grid;
+        grid-template-rows: 16% 33% 31% 18% 2%;
+    }
+
+    .intro{
+        background-position:center;
+        background-size: 100% 550px;
+    }
+
+
+    .main__cover__text{
+        padding: 80px 10px 30px 10px;
+    }
+
+    .secundary__cover__text{
+        padding: 20px 70px 30px 70px;
+    }
+
+    .us__video{
+        height: 500px;
+    }
+
+    .testimonies{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*About_us responsive*/
+
+    .container_about_us{
+        display: grid;
+        grid-template-rows: 16% 12% 12% 38% 17% 6% 2%;
+    }
+
+    .mission{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    .container_index{
+        display: grid;
+        grid-template-rows: 17% 23% 39% 19% 2%;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: row;
+    }
+
+        /*About_us responsive*/
+    
+    .container_about_us{
+        display: grid;
+        grid-template-rows: 16% 11% 12% 40% 15% 6% 2%;
+    }
+
+    .profiles{
+        width: 300px;
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+
+    .container_index{
+        display: grid;
+        grid-template-rows: 17% 22% 40% 19% 2%;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*About_us responsive*/
+
+    .container_about_us{
+        display: grid;
+        grid-template-rows: 19% 11% 13% 26% 19% 9% 3%;
+    }
+
+    .team{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
