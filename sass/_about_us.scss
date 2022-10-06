@@ -79,7 +79,7 @@
     margin: 5px 40px 20px 40px;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    border-radius: 10px;
+    @include boder-radious;
 }
 
 .mission__format{
@@ -88,7 +88,7 @@
     padding: 10px 10px 10px 10px;
     background-color: rgba(255, 255, 255, 0.651);
     border-radius: 10px;
-    transition: all 1s;
+    @include boder-radious;
 
 }
 

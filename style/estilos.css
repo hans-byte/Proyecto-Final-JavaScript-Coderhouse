@@ -59,6 +59,21 @@ body {
   overflow: hidden;
   position: relative;
 }
+.intro .intro__img {
+  background-image: url("../img/nature.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+  opacity: 0.8;
+}
+.intro .intro__img .main__cover__text {
+  padding: 30px 10px 10px 10px;
+  color: white;
+}
+.intro .intro__img .secundary__cover__text {
+  padding: 0px 30px 0px 30px;
+  color: white;
+}
 
 .services {
   grid-area: services;
@@ -71,6 +86,10 @@ body {
   grid-area: us;
   background-color: #4cb3a0;
   text-align: center;
+}
+.us .us__main__text {
+  color: black;
+  padding: 0px 10px 5px 10px;
 }
 
 .testimonies {
@@ -92,26 +111,8 @@ body {
   height: 4%;
 }
 
-.intro__img {
-  background-image: url("../img/nature.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: all 1s;
-  opacity: 0.8;
-}
-
 .intro__img:hover {
   transform: scale(1.05);
-}
-
-.main__cover__text {
-  padding: 30px 10px 10px 10px;
-  color: white;
-}
-
-.secundary__cover__text {
-  padding: 0px 30px 0px 30px;
-  color: white;
 }
 
 .card {
@@ -123,30 +124,18 @@ body {
   transition: all 1s;
   align-items: center;
 }
-
-.card:hover {
-  transform: scale(1.03);
-}
-
-.section__img__card {
+.card .section__img__card {
   height: 100px;
   width: 150px;
   padding-bottom: 10px;
 }
-
-.card__text {
+.card .card__text {
   color: #1f5d5e;
   padding: 0px 10px 0px 10px;
 }
 
-.us__main__text {
-  color: black;
-  padding: 0px 10px 5px 10px;
-}
-
-.us__video {
-  width: 100%;
-  height: 170px;
+.card:hover {
+  transform: scale(1.03);
 }
 
 .card__testimonies {
@@ -155,6 +144,11 @@ body {
   padding: 10px 10px 10px 10px;
   text-align: center;
   border-radius: 10px;
+}
+
+.us__video {
+  width: 100%;
+  height: 170px;
 }
 
 .article__end {
@@ -297,7 +291,7 @@ body {
   padding: 10px 10px 10px 10px;
   background-color: rgba(255, 255, 255, 0.651);
   border-radius: 10px;
-  transition: all 1s;
+  border-radius: 10px;
 }
 
 .mission__format:hover {

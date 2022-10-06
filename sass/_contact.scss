@@ -11,7 +11,7 @@ form{
     textarea{
         width: 98%;
         height: 200px;
-        border-radius: 10px;
+        @include boder-radious;
     }
     div{
         h5{

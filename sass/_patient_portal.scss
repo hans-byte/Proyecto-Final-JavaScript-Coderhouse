@@ -7,7 +7,7 @@ fieldset{
     padding: 1% 10px 1% 30px;
     background-color: #1f5d5e;
     margin: 5% 15px 5% 15px;
-    border-radius: 10px;
+    @include boder-radious;
     align-items: center;
     color: white;
     h2{
