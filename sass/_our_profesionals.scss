@@ -1,0 +1,96 @@
+.body__professionals{
+    background-color:  #9de45179;
+    height: 100%;
+}
+
+.tittle__our__profesionals{
+    background-color: white;
+    text-align: center;
+    margin: 3% 0px 0px 0px;
+}
+.container__profesionals{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 3% 3% 3%;
+    border: 5px solid rgb(133, 132, 132);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    .card__professionals{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        margin: 10px 10px 10px 10px;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px #1f5d5e;
+        transition: all 2s;
+        .img__professionals{
+            width: 60px;
+            height: 60px; 
+            margin-right: 15px;
+        }
+        h6{
+            font-weight: bold;
+        }  
+        a {
+            font-size: 0.8em;
+            margin-bottom: 0.1rem;
+            color: blue;
+            font-weight: bold;
+        }
+        
+        p {
+            font-size: 0.8em;
+            margin-bottom: 0.1rem;
+        }
+
+        .depto{
+            font-size: 0.7em;
+            color: rgb(121, 121, 255);
+        }
+
+        .sede{
+            background-color: greenyellow;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .sede:hover{
+            background-color: lightcoral;
+        }
+
+    }
+}
+
+.card__professionals:hover {
+    transform: skew(0deg,1deg);
+    background-color: lightgoldenrodyellow;
+}
+
+/*Tablet responsive*/
+
+@media screen and (min-width: 576px){
+    .container__profesionals{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card__professionals{
+            width: 250px;
+        }
+
+}
+}
+@media screen and (min-width: 768px){
+
+
+}
+
+@media screen and (min-width: 992px){
+
+
+}
+
+@media screen and (min-width: 1440px){
+
+
+}
+

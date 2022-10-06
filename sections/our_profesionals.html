@@ -4,116 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medi-Niños</title>
+    <title>Cartilla de profesionales: Risa-Medica</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../style/estilos.css">
     <link rel="icon" href="../img/medicine-logo.jpg">
 </head>
-<body>
-    <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./about_us.html">Sobre nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="./our_profesionals.html">Nuestros Profesionales</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./patient_portal.html">Portal del paciente</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contacto</a>
-        </li>
-    </ul>
+<body class="body__professionals">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about_us.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./our_profesionals.html">Nuestros Profesionales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./patient_portal.html">Portal del paciente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contacto</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
 
     <div>
-        <h1>
-            Nuestros profesionales
+        <h1 class="tittle__our__profesionals">
+            Listado de profesionales
         </h1>
     </div>
-    <div class="recuadro">
-        <p class="texto_centrado">   
-            Pediatria
-        </p>
-    </div>
-    <div>
-        <table class="table_our_profesionals">
-            <tr>
-                <td>
-                    <img class="img_our_profesionals" src="../img/pediatra.webp" alt="">
-                </td>
-                <td>
-                    <h2 class="txt_our_profesionals_left">Victoria Cruz</h2>
-                    <br>
-                    <h3 class="txt_our_profesionals_left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto inventore itaque dolorum tenetur mollitia quibusdam in ea suscipit facere, possimus explicabo minus. Nemo eveniet provident nostrum dolorem. Aspernatur, ratione iure!</h3>
-                </td>
-            </tr>
-        </table>
-        <div class="recuadro">
-            <p class="texto_centrado">   
-                Dermatología infantil 
-            </p>
-        </div>
-        <table class="table_our_profesionals">    
-            <tr>
-                <td>
-                    <h2 class="txt_our_profesionals_right">Silvia Navarro</h2>
-                    <br>
-                    <h3 class="txt_our_profesionals_right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto inventore itaque dolorum tenetur mollitia quibusdam in ea suscipit facere, possimus explicabo minus. Nemo eveniet provident nostrum dolorem. Aspernatur, ratione iure!</h3>
-                </td>
-                <td>
-                    <img class="img_our_profesionals" src="../img/dermatologa.webp" alt="">
-                </td>
-            </tr>
-        </table>
-        <div class="recuadro">
-            <p class="texto_centrado">   
-                Nutricion infantil 
-            </p>
-        </div>
-        <table class="table_our_profesionals">
-            <tr>
-                <td>
-                    <img class="img_our_profesionals" src="../img/nutricionista.webp" alt="">
-                </td>
-                <td>
-                    <h2 class="txt_our_profesionals_left">María Clap</h2>
-                    <br>
-                    <h3 class="txt_our_profesionals_left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto inventore itaque dolorum tenetur mollitia quibusdam in ea suscipit facere, possimus explicabo minus. Nemo eveniet provident nostrum dolorem. Aspernatur, ratione iure!</h3>
-                </td>
-            </tr>
-        </table>
-        <div class="recuadro">
-            <p class="texto_centrado">   
-                Demanda espontánea 
-            </p>
-        </div>
-        <table class="table_our_profesionals">    
-            <tr>
-                <td>
-                    <h2 class="txt_our_profesionals_right">Mario Luz</h2>
-                    <br>
-                    <h3 class="txt_our_profesionals_right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto inventore itaque dolorum tenetur mollitia quibusdam in ea suscipit facere, possimus explicabo minus. Nemo eveniet provident nostrum dolorem. Aspernatur, ratione iure!</h3>
-                </td>
-                <td>
-                    <img class="img_our_profesionals" src="../img/reception.webp" alt="">
-                </td>
-            </tr>
-        </table>
+    <div class="container__profesionals">
 
+        <section class="card__professionals">
+            <img class="img__professionals" src="../img/Dra_1.jpg" alt="Doctora con pelo largo">
+            <section>
+                <h6>Dra. Marta Muela</h6>
+                <a href="">Ver currículum</a>
+                <p>Especialista</p>
+                <a class="depto" href="">Departamento de Dermatología</a>
+                <p class="sede">Sede Maipú</p>
+            </section>
+        </section>
+        
+
+        <section class="card__professionals">
+            <img class="img__professionals" src="../img/Dra_2.jpg" alt="Doctora con pelo largo">
+            <section>
+                <h6>Dra. Marta Muela</h6>
+                <a href="">Ver currículum</a>
+                <p>Especialista</p>
+                <a class="depto" href="">Departamento de Dermatología</a>
+                <p class="sede">Sede Maipú</p>
+            </section>
+        </section>
+
+        <section class="card__professionals">
+            <img class="img__professionals" src="../img/Dra_3.jpg" alt="Doctora con pelo castaño">
+            <section>
+                <h6>Dra. Leyre Gil</h6>
+                <a href="">Ver currículum</a>
+                <p>Nutricionista</p>
+                <a class="depto" href="">Departamento de Nutrición</a>
+                <p class="sede">Sede Maipú</p>
+            </section>
+        </section>
+
+        <section class="card__professionals">
+            <img class="img__professionals" src="../img/Dra_4.jpg" alt="Doctora con corte carre">
+            <section>
+                <h6>Dra. Maite Ayesa</h6>
+                <a href="">Ver currículum</a>
+                <p>Nutricionista</p>
+                <a class="depto" href="">Departamento de Nutrición</a>
+                <p class="sede">Sede Luján</p>
+            </section>
+        </section>
+
+        <section class="card__professionals">
+            <img class="img__professionals" src="../img/Dr_5.jpg" alt="Doctor con corbata roja">
+            <section>
+                <h6>Dr. Marcos Redondo</h6>
+                <a href="">Ver currículum</a>
+                <p>Especialista</p>
+                <a class="depto" href="">Departamento de Dermatología</a>
+                <p class="sede">Sede Godoy Cruz</p>
+            </section>
+        </section>
+
+        <section class="card__professionals">
+            <img class="img__professionals" src="../img/Dr_6.jpg" alt="Doctor rubio con barba y corbata azul oscura">
+            <section>
+                <h6>Dr. Juan Navarrete</h6>
+                <a href="">Ver currículum</a>
+                <p>Especialista</p>
+                <a class="depto" href="">Departamento de pediatría</a>
+                <p class="sede">Sede Godoy Cruz</p>
+            </section>
+        </section>
     </div>
 
-    <footer>
-        <ul class="FooterNavUl">
-            <img class="FooterLogo" src="https://img.icons8.com/officel/80/1A1A1A/facebook-new.png"/>
-            <img class="FooterLogo" src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
-            <img class="FooterLogo" src="https://img.icons8.com/fluency/96/000000/instagram-new.png"/>
-            <img class="FooterLogo" src="https://img.icons8.com/arcade/64/000000/experimental-marker-arcade.png"/>
-            <p class="TextFooter">Saenz Peña 550, Mendoza</p>
-            
-        </ul>   
-    </footer>
+
+
+    <section class="footer">
+        <img class="footer__logo" src="https://img.icons8.com/officel/80/1A1A1A/facebook-new.png"/>
+        <img class="footer__logo" src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+        <img class="footer__logo" src="https://img.icons8.com/fluency/96/000000/instagram-new.png"/>
+        <img class="footer__logo" src="https://img.icons8.com/arcade/64/000000/experimental-marker-arcade.png"/>
+    </section>
 </body>
 </html>

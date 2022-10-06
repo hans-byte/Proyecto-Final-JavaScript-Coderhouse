@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #1f5d5e;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    color: #1f5d5e;
+    background-color:#1f5d5e;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background-color: #9ce451;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #9ce451;
+    border-radius: 5px;
+}
+
+.nav-link.active {
+    color: #fff;
+    background-color:#9ce451;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}

@@ -4,107 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medi-Niños</title>
+    <title>Te cuidamos: Risa-Medica</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="./style/estilos.css">
 
 </head>
 <body>
-    <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./sections/about_us.html">Sobre nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./sections/our_profesionals.html">Nuestros Profesionales</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./sections/patient_portal.html">Portal del paciente</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href=".//sections/contact.html">Contacto</a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sections/about_us.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sections/our_profesionals.html">Nuestros Profesionales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sections/patient_portal.html">Portal del paciente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".//sections/contact.html">Contacto</a>
+                    </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
     
     <div class="container_index">
         <section class="intro">
-            <article class="intro__img">
+            <article class="intro__img" alt="Hombre agarrando del brazo a su hija">
                 <h1 class="main__cover__text">
                     Risa-Médica
                 </h1>
-                <h4 class="secundary__cover__text">
-                    Somos el centro médico más importante de Mendoza. Con más 2.800 profesionales en dedicación exclusiva en sus sedes de Luján de Cuyo y Godoy Cruz, la Clínica Risa-Médica es un hospital según el modelo referente en medicina personalizada en nuestro país.
-                </h4>
+                <p class="secundary__cover__text">
+                    Somos el centro médico más importante de Mendoza. Con más 20 profesionales en dedicación exclusiva 
+                    en sus sedes de Luján de Cuyo, Godoy Cruz y Maipú.
+                </p>
             </article>
         </section>         
         <section class="services">
             <article class="card">
-                <img class="section__img__card" src="./img/pediatric.jpg" alt="">
-                <h3>
+                <img class="section__img__card" src="./img/pediatric.jpg" alt="Doctora jugando con un bebé">
+                <h2>
                     Pediatría
-                </h3>
+                </h2>
                 <p class="card__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur dolore autem assumenda! Illum, temporibus, error molestias repellendus repudiandae tempore aspernatur voluptatibus qui provident in earum, vitae facilis dolore esse.
+                    Nos ocupamos de la salud del ser humano desde la concepción hasta el final de la adolescencia.
                 </p>
             </article>
             <article class="card">
-                <img class="section__img__card" src="./img/baby_nutrition.jpg" alt="">
-                <h3>
+                <img class="section__img__card" src="./img/baby_nutrition.jpg" alt="Bebé agarrando frutas">
+                <h2>
                     Nutrición infantil
-                </h3>
+                </h2>
                 <p class="card__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur dolore autem assumenda! Illum, temporibus, error molestias repellendus repudiandae tempore aspernatur voluptatibus qui provident in earum, vitae facilis dolore esse.
+                    Nos basamos en los mismo principios que la nutrición para adultos para que pueda crecer, desarrollar su activiad física y estar sano.
                 </p>
             </article>
             <article class="card">
-                <img class="section__img__card" src="./img/baby_skin.webp" alt="">
-                <h3>
+                <img class="section__img__card" src="./img/baby_skin.webp" alt="Manos acariciando pies de un bebé">
+                <h2>
                     Dermatología infantil
-                </h3>
+                </h2>
                 <p class="card__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur dolore autem assumenda! Illum, temporibus, error molestias repellendus repudiandae tempore aspernatur voluptatibus qui provident in earum, vitae facilis dolore esse.
+                    Realizamos el diagnóstico y tratamiento de enfermedades de la piel, pelo y uñas de lactantes, niños y adolescentes.
                 </p>
             </article>
         </section>
         <section class="us">
-            <iframe  class="us__video" src="https://www.youtube.com/embed/1IMIPo5jccs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h2 class="card">
+            <iframe  class="us__video" src="https://www.youtube.com/embed/1IMIPo5jccs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video corporativo general"></iframe>
+            <h3 class="card">
                 ¿Por qué nuestra Clínica?
-            </h2>
-            <h3 class="us__main__text">
-                La excelencia en la atención a cada paciente, compromiso de todos los profesionales de la Clínica
             </h3>
-            <h5 class="card__text">
-                En la Clínica, el primer objetivo que nos marcamos es ofrecer al paciente y a sus familiares el mejor trato médico y humano posible.
-            </h5>
+            <h4 class="us__main__text">
+                La excelencia en la atención a cada paciente, compromiso de todos los profesionales de la Clínica
+            </h4>
+            <p>
+                En la Clínica, el primer objetivo que nos marcamos es ofrecer al paciente y a sus familiares el mejor trato médico y humano posible.    
+            </p>
         </section>
         <section class="testimonies">
             <article class="card">
-                <img class="section__img__card" src="./img/Maria.webp" alt="">
-                <h3>
-                    María
-                </h3>
-                <h5>
-                    Gripe crónica curada
-                </h5>
+                <img class="section__img__card" src="./img/Maria.webp" alt="Niña con rulos riendo">
+                <h6>
+                    María: Gripe crónica
+                </h6>
                 <p class="card__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur dolore autem assumenda! Illum, temporibus, error molestias repellendus repudiandae tempore aspernatur voluptatibus qui provident in earum, vitae facilis dolore esse.
+                    Conozca el testimonio de María y cómo Risa-Médica le ayudo a curar su enfermedad.
                 </p>
             </article>
             <article class="card">
-                <img class="section__img__card" src="./img/Catalina.jpg" alt="">
-                <h3>
-                    Catalina
-                </h3>
-                <h5>
-                    Acné adolescente
-                </h5>
+                <img class="section__img__card" src="./img/Catalina.jpg" alt="Niña de pelo rubio sonriendo">
+                <h6>
+                    Catalina: Acné adolescente
+                </h6>
                 <p class="card__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia consectetur dolore autem assumenda! Illum, temporibus, error molestias repellendus repudiandae tempore aspernatur voluptatibus qui provident in earum, vitae facilis dolore esse.
+                    Luego de años de padecimiento, Catalina pudo encontrar la solución y contención que anhelaba.
                 </p>
             </article>
+            <article class="article__end"></article>
         </section>
         <section class="footer">
             <img class="footer__logo" src="https://img.icons8.com/officel/80/1A1A1A/facebook-new.png"/>

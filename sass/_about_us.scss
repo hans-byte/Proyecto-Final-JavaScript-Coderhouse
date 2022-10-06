@@ -1,0 +1,195 @@
+.container_about_us{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "intro_about_us"
+    "mission"
+    "details_about_us"
+    "team"
+    "rights"
+    "ethics"
+    "footer"
+    ;
+}
+
+.intro_about_us{
+    grid-area: intro_about_us;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+.mission{
+    grid-area: mission;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    background-color: #25b386;
+}
+
+.details_about_us{
+    grid-area: details_about_us;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.team{
+    grid-area: team;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.rights{
+    grid-area: rights;
+    background-color: #7dd1c1;
+    text-align: center;
+}
+
+.ethics{
+    grid-area: ethics;
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.intro__about__us__img{
+    background-image: url("../img/about_us_landpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+    opacity: 1.5;
+}
+
+.intro__about__us__img:hover{
+    transform: scale(1.05);
+}
+
+.card__intro__about__us{
+    background-color: rgba(255, 255, 255, 0.651);
+    margin: 5px 40px 20px 40px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mission__format{
+    width: 80%;
+    margin: 5px 15px 10px 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 10px;
+    transition: all 1s;
+
+}
+
+
+.mission__format:hover{
+    transform: scale(1.1);
+}
+
+.NoBullets{
+    list-style-type: none;
+}
+
+.details__about__us__img{
+    background-image: url("../img/pexels-pixabay-40568.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.main__cover__text__black{
+    padding: 20px 10px 20px 10px;
+    color: black;
+}
+
+.organization{
+    text-align: center;
+    justify-content:center;
+    padding: 0px 30px 10px 30px;
+}
+
+.profiles{
+    height: 350px;
+    width: 50%;
+    border: solid 1px black;
+}
+
+.moral__title{
+    padding: 20px 20px 10px 10px;
+    color: black;
+}
+
+.text_aside{
+    padding: 10px 0px 10px 20px;
+    text-align: left;
+}
+
+
+
+
+
+/*Tablet responsive*/
+
+
+@media screen and (min-width: 576px){
+
+
+    /*About_us responsive*/
+
+    .mission{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+        /*About_us responsive*/
+    
+    .profiles{
+        width: 300px;
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+
+
+    /*About_us responsive*/
+
+    .team{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 50px;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+
+    /*About_us responsive*/
+
+    .intro__about__us__img{
+        zoom: 150%;
+    }
+
+    .details__about__us__img{
+        zoom: 120%;
+    }
+    
+
+}
