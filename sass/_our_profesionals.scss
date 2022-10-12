@@ -3,15 +3,24 @@
     height: 100%;
 }
 
+.paragraph__our__profesionals{
+    background-color: #1f5d5ed8;
+    padding: 3% 3% 3% 3%;
+    margin: 0px 0px 0px 0px;
+    text-align: justify;
+    color: white;
+}
 .tittle__our__profesionals{
-    background-color: white;
+    background-color: #1f5d5e;
     text-align: center;
-    margin: 3% 0px 0px 0px;
+    margin: 0% 0px 0px 0px;
+    color: #9ce451;
+    padding: 10px 0px 10px 0px;
 }
 .container__profesionals{
     display: flex;
     flex-direction: column;
-    margin: 3% 3% 3% 3%;
+    margin: 3% 10% 3% 10%;
     border: 5px solid rgb(133, 132, 132);
     @include boder-radious;
     background-color: whitesmoke;
@@ -80,17 +89,27 @@
 }
 }
 @media screen and (min-width: 768px){
+    .paragraph__our__profesionals{
+        padding: 3% 3% 3% 3%;
+        margin: 0px 0px 0px 0px;
 
-
+}
 }
 
 @media screen and (min-width: 992px){
+    .paragraph__our__profesionals{
+        padding: 3% 5% 3% 5%;
+        margin: 0px 0px 0px 0px;
 
-
+    }
 }
+
 
 @media screen and (min-width: 1440px){
+    .paragraph__our__profesionals{
+        padding: 3% 10% 3% 10%;
+        margin: 0px 0px 0px 0px;
 
+    }
 
 }
-

@@ -80,6 +80,7 @@ body {
   background-color: #25b386;
   justify-items: center;
   width: 100%;
+  justify-content: center;
 }
 
 .us {
@@ -95,6 +96,7 @@ body {
 .testimonies {
   grid-area: testimonies;
   background-color: #9ce451;
+  text-align: center;
 }
 
 .footer {
@@ -196,8 +198,16 @@ body {
     display: flex;
     flex-direction: row;
   }
-  .us__video {
+  .card {
+    width: 30%;
+    justify-content: center;
+  }
+  .us .us__video {
     height: 500px;
+  }
+  .us .card {
+    width: 98%;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -292,6 +302,7 @@ body {
   background-color: rgba(255, 255, 255, 0.651);
   border-radius: 10px;
   border-radius: 10px;
+  transition: all 1s;
 }
 
 .mission__format:hover {
@@ -374,16 +385,26 @@ body {
   height: 100%;
 }
 
+.paragraph__our__profesionals {
+  background-color: rgba(31, 93, 94, 0.8470588235);
+  padding: 3% 3% 3% 3%;
+  margin: 0px 0px 0px 0px;
+  text-align: justify;
+  color: white;
+}
+
 .tittle__our__profesionals {
-  background-color: white;
+  background-color: #1f5d5e;
   text-align: center;
-  margin: 3% 0px 0px 0px;
+  margin: 0% 0px 0px 0px;
+  color: #9ce451;
+  padding: 10px 0px 10px 0px;
 }
 
 .container__profesionals {
   display: flex;
   flex-direction: column;
-  margin: 3% 3% 3% 3%;
+  margin: 3% 10% 3% 10%;
   border: 5px solid rgb(133, 132, 132);
   border-radius: 10px;
   background-color: whitesmoke;
@@ -445,6 +466,24 @@ body {
     width: 250px;
   }
 }
+@media screen and (min-width: 768px) {
+  .paragraph__our__profesionals {
+    padding: 3% 3% 3% 3%;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .paragraph__our__profesionals {
+    padding: 3% 5% 3% 5%;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .paragraph__our__profesionals {
+    padding: 3% 10% 3% 10%;
+    margin: 0px 0px 0px 0px;
+  }
+}
 .body__patient__portal {
   background-color: rgba(157, 228, 81, 0.4745098039);
   height: 100%;
@@ -453,7 +492,7 @@ body {
 fieldset {
   padding: 1% 10px 1% 30px;
   background-color: #1f5d5e;
-  margin: 5% 15px 5% 15px;
+  margin: 5% 5% 5% 5%;
   border-radius: 10px;
   align-items: center;
   color: white;
@@ -467,11 +506,19 @@ fieldset input {
 fieldset legend {
   padding: 20px 20px 20px 20px;
 }
+fieldset .input__button:hover {
+  background-color: lightcoral;
+}
 
 .title__patient__portal {
   padding: 10px 0px 0px 20px;
 }
 
+@media screen and (min-width: 1440px) {
+  fieldset {
+    margin: 5% 15% 5% 15%;
+  }
+}
 .body__contact {
   background-color: rgba(157, 228, 81, 0.4745098039);
   height: 100%;
@@ -487,4 +534,7 @@ form textarea {
 }
 form div h5 {
   padding: 20px 0px 0px 0px;
+}
+form .buttom__contact:hover {
+  background-color: lightcoral;
 }/*# sourceMappingURL=estilos.css.map */

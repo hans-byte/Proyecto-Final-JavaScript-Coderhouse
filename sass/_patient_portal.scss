@@ -6,7 +6,7 @@
 fieldset{
     padding: 1% 10px 1% 30px;
     background-color: #1f5d5e;
-    margin: 5% 15px 5% 15px;
+    margin: 5% 5% 5% 5%;
     @include boder-radious;
     align-items: center;
     color: white;
@@ -21,9 +21,18 @@ fieldset{
     legend{
         padding: 20px 20px 20px 20px;
     }
-
+    .input__button:hover{
+        background-color: lightcoral;
+        
+    }
 }
-
 .title__patient__portal{
     padding: 10px 0px 0px 20px;
+}
+
+@media screen and (min-width: 1440px){
+
+    fieldset{
+        margin: 5% 15% 5% 15%;
+}
 }
