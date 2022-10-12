@@ -253,6 +253,9 @@ body {
   text-align: center;
   padding: 0px 0px 0px 0px;
 }
+.details_about_us .card {
+  width: 95%;
+}
 
 .team {
   grid-area: team;
