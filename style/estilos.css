@@ -280,6 +280,7 @@ body {
 
 .intro__about__us__img {
   background-image: url("../img/about_us_landpage.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 1s;
@@ -336,7 +337,7 @@ body {
 
 .profiles {
   height: 350px;
-  width: 50%;
+  width: 70%;
   border: solid 1px black;
 }
 
@@ -390,7 +391,7 @@ body {
 
 .paragraph__our__profesionals {
   background-color: rgba(31, 93, 94, 0.8470588235);
-  padding: 3% 3% 3% 3%;
+  padding: 8% 8% 8% 8%;
   margin: 0px 0px 0px 0px;
   text-align: justify;
   color: white;
@@ -471,7 +472,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .paragraph__our__profesionals {
-    padding: 3% 3% 3% 3%;
+    padding: 6% 5% 6% 5%;
     margin: 0px 0px 0px 0px;
   }
 }
