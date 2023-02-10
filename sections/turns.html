@@ -40,45 +40,67 @@
         </div>
     </nav>
     <fieldset class="personal__info">
-        <h2>Información Personal:</h2>
+        <h2>Por favor, ingrese los siguientes datos para solicitar un turno:</h2>
         <form>
-            <p>Sexo:</p>
-            <input id="hombre" type="radio" name="sexo" value="hombre" />
-            <label for="hombre">Hombre</label>
-            <input id="mujer" type="radio" name="sexo" value="mujer" />
-            <label for="mujer">Mujer</label>
-            <div></div>
-            <label  for="nombre">Nombre:</label>
-            <input id="nameasd" type="text" name="nombre" />
-            <label id="surname" for="apellido">Apellido:</label>
-            <input type="text" name="apellido" />
-            <div></div>
-            <label id="mail" for="mail">Mail:</label>
-            <input type="text" name="mail" />
-            <label id="espec" for="specialty">Especialidad:</label>
-            <input type="text" name="specialty" />
-            <div></div>
-            <form>
-                <input id="calendario" class="form-control" type="datetime-local" placeholder="Seleccione fecha y horario">
-            </form>
-            <div>
-                <h5>Detalle su consulta</h5>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input id="nombre" type="text" class="form-control" aria-required="true">
             </div>
-            <textarea id="msg" name="user_message"></textarea>
-            <div></div>
-            <input id="turno" class="buttom__contact" type="submit" value="Solicitar turno"/>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Apellido</label>
+                <input id="apellido" type="text" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Elija la especialidad</label>
+                <select class="form-select" id="especialidad">
+                    <option selected></option>
+                    <option value="Pediatría">Pediatría</option>
+                    <option value="Dermatología">Dermatología</option>
+                    <option value="Nutrición">Nutrición</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Fecha</label>
+                <input id="fecha" type="date" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Hora</label>
+                <input type="number" id="hora" name="yourName" min="10" max="17" class="form-control">
+                <label class="input-group-text" for="inputGroupSelect01">Minutos</label>
+                <input type="number" id="minutos" name="yourName" min="00" max="45" step="15" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Detalle</label>
+                <input id="detalle" type="text" class="form-control">
+            </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="check" value="yes">
+                <label class="form-check-label" for="exampleCheck1">He leído los terminos y condiciones</label>
+            </div>
+            <button id="turno" type="submit" class="btn btn-primary">Solicitar</button>
+    
+            <hr>
+            
+            <div>
+                <h3>Turnos asignados</h3>
+            </div>
+    
+    
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Especialidad</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Hora</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla">
+                </tbody>
+            </table>
+    
+            
         </form>
-        <table  class="table">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Especialidad</th>
-                <th scope="col">Fecha de consulta</th>
-            </tr>
-            </thead>
-            <tbody id="tabla">
-            </tbody>
-        </table>
     </fieldset>
     <section class="footer">
         <img class="footer__logo" src="https://img.icons8.com/officel/80/1A1A1A/facebook-new.png" alt="Facebook logo"/>
@@ -86,6 +108,8 @@
         <img class="footer__logo" src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt="Instagram logo"/>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../Javascript/luxon.js"></script>
     <script src="../JavaScript/calendar.js"></script>
 
 </body>

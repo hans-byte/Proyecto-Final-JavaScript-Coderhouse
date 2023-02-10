@@ -12,6 +12,7 @@
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
     background-color: #9ce451;
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {

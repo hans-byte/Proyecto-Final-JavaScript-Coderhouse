@@ -26,6 +26,7 @@ body {
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
   cursor: pointer;
   background-color: #9ce451;
+  color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -541,4 +542,13 @@ form div h5 {
 }
 form .buttom__contact:hover {
   background-color: lightcoral;
+}
+
+thead {
+  color: black;
+  background-color: #9ce451;
+}
+
+tbody {
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
